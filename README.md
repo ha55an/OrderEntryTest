@@ -1,5 +1,5 @@
 # Order Entry Dialog Test
-## UI SASS Test.
+## UI SASS Test
 
 * Converted illustrator file of an Order Entry Dialog. 
 * Built using only HTML and SASS/LESS.
