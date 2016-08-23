@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Order Entry</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+    <div class="popover">
+        <div class="popover__arrow">
+
+        </div>
+        <div class="popover__titlebar">
+            <span class="popover__title">
+                FTSE 100 CLEARED
+            </span>
+            <div class="popover__titlebar-controls">
+                <button type="button" class="button--med button--cancel">CLEAR</button>
+                <span class="icon-button icon--cross"></span>
+            </div>
+        </div>
+        <div class="panels">
+            <div class="no-border">
+                <label class="panels__input-active">BID</label>
+                <input type="text" name="bid" value="0.00" autofocus>
+            </div>
+            <div class="panels__text">
+                <label>Hidden</label>
+                <span class="panels__text--lrg">0</span>
+            </div>
+            <div class="panels__text">
+                <label>Shown</label>
+                <span class="panels__text--lrg">1</span>
+            </div>
+            <div class="panels__divider">
+            </div>
+            <div class="panels__input">
+                <label class="panels__input-active">OFFER</label>
+                <input type="text" name="offer" value="0.00">
+            </div>
+            <div class="panels__text">
+                <label>Shown</label>
+                <span class="panels__text--lrg">1</span>
+            </div>
+            <div class="panels__text">
+                <label>Hidden</label>
+                <span class="panels__text--lrg">0</span>
+            </div>
+        </div>
+        <div class="popover__breaker">
+            <span class="icon-button icon--minus"></span><span class="popover__breaker-text">Order Options</span>
+        </div>
+        <div class="panels">
+            <div class="panels__text no-border">
+                <label>Good Till Date</label>
+                <span>dd/mm/yyyy</span>
+            </div>
+            <div class="panels__text">
+                <label>Good Till Time</label>
+                <span>hh:mm</span>
+            </div>
+            <div class="panels__text">
+                <label>Good Until Cancelled</label>
+                <input type="checkbox" id="toggle" name="good-until-cancelled" class="switch" />
+                <label for="toggle">&nbsp;</label>
+            </div>
+        </div>
+        <div class="popover__breaker">
+            <span class="icon-button icon--minus"></span><span class="popover__breaker--text">Existing Orders</span>
+        </div>
+        <div class="panels">
+            <table class="panels__table">
+                <thead>
+                    <tr>
+                        <th class="no-border column-wide">Price</th>
+                        <th>Size</th>
+                        <th class="column-right-align">BID</th>
+                        <th class="column-divider">OFFER</th>
+                        <th>Hidden</th>
+                        <th class="column-wide">GTC/GTD</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="no-border">&nbsp;</td>
+                        <td></td>
+                        <td></td>
+                        <td class="column-divider"></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="no-border">&nbsp;</td>
+                        <td></td>
+                        <td></td>
+                        <td class="column-divider"></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="no-border">&nbsp;</td>
+                        <td></td>
+                        <td></td>
+                        <td class="column-divider"></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="no-border">&nbsp;</td>
+                        <td></td>
+                        <td></td>
+                        <td class="column-divider"></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="popover__footer">
+            <button type="button" class="button--lrg button--bid">Bid</button>
+            <button type="button" class="button--lrg button--default">Submit Both</button>
+            <button type="button" class="button--lrg button--offer">Offer</button>
+        </div>
+    </div>
+</body>
+</html>

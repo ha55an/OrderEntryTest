@@ -1,0 +1,53 @@
+@import "base";
+
+.popover {
+    margin: 30px auto;
+    background-color: $black;
+    width: 400px;
+    border: 2px solid $black;
+    border-radius: 5px;
+    position: relative;
+
+    .popover__arrow {
+        position: absolute;
+        width: 0;
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+        border-bottom: 12px solid $black;
+        top: -13px;
+        left: 190px;
+    }
+
+    .popover__titlebar {
+        display: flex;
+        background-color: $grey-b;
+        font-size: 11px;
+        padding: 4px 5px;
+        color: $white;
+        border-top-right-radius: 3px;
+        border-top-left-radius: 3px;
+
+        .popover__titlebar-controls {
+            display: flex;
+            margin-left: auto;
+            vertical-align: middle;
+        }
+    }
+
+    .popover__footer {
+        display: flex;
+
+        button[type=button]:first-child {
+            border-bottom-left-radius: 3px;
+        }
+
+        button[type=button]:last-child {
+            border-bottom-right-radius: 3px;
+        }
+    }
+}
+
+
+
+
+

@@ -1,0 +1,52 @@
+@import "base";
+
+// Button Colours Mixin
+@mixin button-states-mixin($default-color, $hover-color) {
+    background-color: $default-color;
+    
+    &:hover, &:active {
+        background-color: $hover-color;
+    }
+}
+
+// Button Styles
+button[type=button] {
+    color: $white;
+    border: none;
+
+    &.button--med {
+        padding: 1px 7px;
+        font-size: 10px;
+        margin-right: 3px;
+        border-radius: 2px;
+    }
+
+    &.button--lrg {
+        flex-grow: 1;
+        flex-basis: 0;
+        padding: 4px;
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    &.button--default {
+        @include button-states-mixin($blue-11, $blue-12);
+    }
+
+    &.button--bid {
+        @include button-states-mixin($green-16, $green-15);
+    }
+
+    &.button--offer {
+        @include button-states-mixin($red-20, $red-19);
+    }
+
+    &.button--cancel {
+        @include button-states-mixin($grey-06, $grey-07);
+    }
+
+    &:disabled {
+        color: $grey-08;
+        background-color: $grey-06;
+    }
+}

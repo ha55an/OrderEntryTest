@@ -1,0 +1,235 @@
+body {
+  background-color: #495058;
+  color: #9299a1;
+  font-family: sans-serif;
+  font-size: 10px; }
+
+body {
+  background-color: #495058;
+  color: #9299a1;
+  font-family: sans-serif;
+  font-size: 10px; }
+
+.popover {
+  margin: 30px auto;
+  background-color: #000;
+  width: 400px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  position: relative; }
+  .popover .popover__arrow {
+    position: absolute;
+    width: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid #000;
+    top: -13px;
+    left: 190px; }
+  .popover .popover__titlebar {
+    display: flex;
+    background-color: #16181a;
+    font-size: 11px;
+    padding: 4px 5px;
+    color: #fff;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px; }
+    .popover .popover__titlebar .popover__titlebar-controls {
+      display: flex;
+      margin-left: auto;
+      vertical-align: middle; }
+  .popover .popover__footer {
+    display: flex; }
+    .popover .popover__footer button[type=button]:first-child {
+      border-bottom-left-radius: 3px; }
+    .popover .popover__footer button[type=button]:last-child {
+      border-bottom-right-radius: 3px; }
+
+body {
+  background-color: #495058;
+  color: #9299a1;
+  font-family: sans-serif;
+  font-size: 10px; }
+
+.panels {
+  display: flex;
+  background-color: #202327;
+  border-top: 1px solid #000; }
+  .panels .panels__input-active {
+    position: absolute;
+    color: white;
+    padding: 6px;
+    font-size: 11px;
+    color: #b2b2b2; }
+  .panels input[type="text"] {
+    width: 70px;
+    padding: 22px 6px 5px 6px;
+    border-width: 1px;
+    border-color: transparent;
+    font-size: 15px;
+    background-color: transparent;
+    color: #fff; }
+    .panels input[type="text"]:focus, .panels input[type="text"]:active {
+      background-color: #fff;
+      color: #000;
+      border: 1px solid #0180a0; }
+  .panels .panels__text {
+    border-left: 1px solid #000;
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 5px 7px;
+    font-size: 11px; }
+    .panels .panels__text label {
+      display: block; }
+    .panels .panels__text span {
+      display: block;
+      color: #fff;
+      padding-top: 5px; }
+      .panels .panels__text span.panels__text--lrg {
+        font-size: 13px; }
+    .panels .panels__text.no-border {
+      border-left: none; }
+  .panels .panels__divider {
+    width: 3px;
+    background-color: #000; }
+
+.popover__breaker {
+  display: flex;
+  border-top: 1px solid #000;
+  background-color: #16181a;
+  padding: 2px 3px; }
+  .popover__breaker .popover__breaker-text {
+    margin-left: 3px; }
+
+body {
+  background-color: #495058;
+  color: #9299a1;
+  font-family: sans-serif;
+  font-size: 10px; }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed; }
+  table th, table td {
+    background-color: #202327;
+    border-left: solid 1px #000;
+    border-bottom: solid 1px #131416;
+    padding: 2px; }
+  table th {
+    font-size: 10px;
+    font-weight: normal;
+    text-align: left;
+    padding: 2px 6px;
+    background-color: #181b1d; }
+  table .column-wide {
+    width: 20%; }
+  table .column-right-align {
+    text-align: right; }
+  table .column-divider {
+    border-left: solid 3px #000; }
+  table .no-border {
+    border-left: none; }
+
+body {
+  background-color: #495058;
+  color: #9299a1;
+  font-family: sans-serif;
+  font-size: 10px; }
+
+button[type=button] {
+  color: #fff;
+  border: none; }
+  button[type=button].button--med {
+    padding: 1px 7px;
+    font-size: 10px;
+    margin-right: 3px;
+    border-radius: 2px; }
+  button[type=button].button--lrg {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 4px;
+    font-size: 11px;
+    font-weight: 700; }
+  button[type=button].button--default {
+    background-color: #0180a0; }
+    button[type=button].button--default:hover, button[type=button].button--default:active {
+      background-color: #199abd; }
+  button[type=button].button--bid {
+    background-color: #678400; }
+    button[type=button].button--bid:hover, button[type=button].button--bid:active {
+      background-color: #475c00; }
+  button[type=button].button--offer {
+    background-color: #ca0000; }
+    button[type=button].button--offer:hover, button[type=button].button--offer:active {
+      background-color: #8e0000; }
+  button[type=button].button--cancel {
+    background-color: #32373d; }
+    button[type=button].button--cancel:hover, button[type=button].button--cancel:active {
+      background-color: #3c434c; }
+  button[type=button]:disabled {
+    color: #5a5f66;
+    background-color: #32373d; }
+
+.icon-button {
+  width: 10px;
+  height: auto;
+  margin: 2px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block; }
+  .icon-button.icon--cross {
+    background-image: url("../img/icon--cross.svg"); }
+    .icon-button.icon--cross:hover, .icon-button.icon--cross:active {
+      background-image: url("../img/icon--cross-hover.svg"); }
+  .icon-button.icon--minus {
+    background-image: url("../img/icon--minus.svg"); }
+
+body {
+  background-color: #495058;
+  color: #9299a1;
+  font-family: sans-serif;
+  font-size: 10px; }
+
+input.switch:empty {
+  margin-left: -9999px; }
+
+input.switch:empty ~ label {
+  position: relative;
+  float: left;
+  margin-top: 7px;
+  text-indent: 5px;
+  line-height: 10px; }
+
+input.switch:empty ~ label:before,
+input.switch:empty ~ label:after {
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  content: 'YES';
+  width: 54px;
+  text-indent: 21px;
+  font-size: 10px;
+  color: #fff;
+  background-color: #131416;
+  border-radius: 2px; }
+
+input.switch:empty ~ label:after {
+  content: ' ';
+  width: 10px;
+  text-align: center;
+  text-indent: 0;
+  background-color: #3c434c;
+  border-radius: 2px;
+  -webkit-transition: all 100ms ease-in;
+  transition: all 100ms ease-in; }
+
+input.switch:checked ~ label:before {
+  content: 'NO';
+  text-indent: 16px; }
+
+input.switch:checked ~ label:after {
+  margin-left: 44px; }
+
+/*# sourceMappingURL=main.css.map */

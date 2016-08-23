@@ -1,0 +1,31 @@
+$black: #000;
+$white: #fff;
+
+$grey-a: rgb(19,20,22);
+$grey-b: rgb(22,24,26);
+$grey-c: rgb(24,27,29);
+$grey-d: rgb(32,35,39);
+$grey-e: rgb(73,80,88);
+$grey-f: rgb(146,153,161);
+$grey-g: rgb(178,178,178);
+
+$grey-06: rgb(50,55,61);
+$grey-07: rgb(60,67,76);
+$grey-08: rgb(90,95,102);
+
+$blue-11: rgb(1,128,160);
+$blue-12: rgb(25,154,189);
+
+$green-15: rgb(71,92,0);
+$green-16: rgb(103,132,0);
+
+$red-19: rgb(142,0,0);
+$red-20: rgb(202,0,0);
+
+
+body {
+    background-color: $grey-e;
+    color: $grey-f;
+    font-family: sans-serif;
+    font-size: 10px;
+}
