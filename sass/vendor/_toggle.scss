@@ -9,6 +9,7 @@ input.switch:empty ~ label {
     float: left;
     margin-top: 19px;
     text-indent: 5px;
+    font-size: 10px;
     line-height: 10px;
 }
 
@@ -23,7 +24,6 @@ input.switch:empty ~ label:after {
     content: 'YES';
     width: 54px;
     text-indent: 20px;
-    font-size: 10px;
     color: $white;
     background-color: $grey-a;
     border-radius: 2px;

@@ -15,8 +15,10 @@ button[type=button] {
     border: none;
     font-family: "Arial", sans-serif;
     margin: 0;
+    padding: 0;
     vertical-align: middle;
-    text-align:left;
+    text-align: left;
+    box-sizing: border-box;
 
     &:focus {
         outline: none;
@@ -33,7 +35,6 @@ button[type=button] {
     &.button--lrg {
         flex-grow: 1;
         flex-basis: 0;
-        padding: 0;
         height: 21px;
         font-size: 11px;
         line-height: 11px;
@@ -42,17 +43,17 @@ button[type=button] {
 
     &.button--default {
         @include button-states-mixin($blue-11, $blue-12);
-        text-indent:29px;
+        text-indent: 29px;
     }
 
     &.button--bid {
         @include button-states-mixin($green-16, $green-15);
-        text-indent:61px;
+        text-indent: 61px;
     }
 
     &.button--offer {
         @include button-states-mixin($red-20, $red-19);
-        text-indent:52px;
+        text-indent: 52px;
     }
 
     &.button--cancel {
@@ -63,4 +64,10 @@ button[type=button] {
         color: $grey-08;
         background-color: $grey-06;
     }
+}
+
+button::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner {
+    padding: 0;
+    border: 0 none;
 }

@@ -5,10 +5,12 @@ body {
     color: $grey-f;
     font-family: "Arial", sans-serif;
     font-size: 10px;
+    font-weight:400;
 }
 
 .popover {
-    margin: 30px auto;
+    margin: auto;
+    margin-top:55px;
     background-color: $black;
     width: 400px;
     border-top: 1px solid $black;
@@ -32,8 +34,8 @@ body {
         display: flex;
         background-color: $grey-b;
         font-size: 11px;
-        padding: 3.5px 7px;
-        line-height: 14px;
+        padding: 4px 7px 3px 7px ;
+        line-height: 12px;
         vertical-align: middle;
         height: 21px;
         box-sizing: border-box;
