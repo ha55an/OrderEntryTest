@@ -16,6 +16,7 @@ button[type=button] {
     font-family: "Arial", sans-serif;
     margin: 0;
     vertical-align: middle;
+    text-align:left;
 
     &:focus {
         outline: none;
@@ -41,14 +42,17 @@ button[type=button] {
 
     &.button--default {
         @include button-states-mixin($blue-11, $blue-12);
+        text-indent:29px;
     }
 
     &.button--bid {
         @include button-states-mixin($green-16, $green-15);
+        text-indent:61px;
     }
 
     &.button--offer {
         @include button-states-mixin($red-20, $red-19);
+        text-indent:52px;
     }
 
     &.button--cancel {

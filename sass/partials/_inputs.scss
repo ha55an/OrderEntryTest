@@ -29,7 +29,7 @@
             padding-top: 21px;
 
             & + label {
-                color: $white;
+                color: $grey-h;
             }
         }
     }
@@ -62,7 +62,7 @@
         &:focus, &:active {
             outline: none;
             background-color: $white;
-            color: $black;
+            color: $grey-b;
             border: 1px solid $blue-11;
 
             &::-ms-clear {

@@ -103,7 +103,7 @@ body {
       width: 85px;
       padding-top: 21px; }
       .panels__input.panels_input--lrg input[type="text"] + label {
-        color: #fff; }
+        color: #e2e6e8; }
   .panels__input label {
     position: absolute;
     top: 8px;
@@ -127,7 +127,7 @@ body {
     .panels__input input[type="text"]:focus, .panels__input input[type="text"]:active {
       outline: none;
       background-color: #fff;
-      color: #000;
+      color: #16181a;
       border: 1px solid #0180a0; }
       .panels__input input[type="text"]:focus::-ms-clear, .panels__input input[type="text"]:active::-ms-clear {
         display: none; }
@@ -169,7 +169,8 @@ button[type=button] {
   border: none;
   font-family: "Arial", sans-serif;
   margin: 0;
-  vertical-align: middle; }
+  vertical-align: middle;
+  text-align: left; }
   button[type=button]:focus {
     outline: none; }
   button[type=button].button--med {
@@ -187,15 +188,18 @@ button[type=button] {
     line-height: 11px;
     font-weight: 700; }
   button[type=button].button--default {
-    background-color: #0180a0; }
+    background-color: #0180a0;
+    text-indent: 29px; }
     button[type=button].button--default:hover, button[type=button].button--default:active {
       background-color: #199abd; }
   button[type=button].button--bid {
-    background-color: #678400; }
+    background-color: #678400;
+    text-indent: 61px; }
     button[type=button].button--bid:hover, button[type=button].button--bid:active {
       background-color: #475c00; }
   button[type=button].button--offer {
-    background-color: #ca0000; }
+    background-color: #ca0000;
+    text-indent: 52px; }
     button[type=button].button--offer:hover, button[type=button].button--offer:active {
       background-color: #8e0000; }
   button[type=button].button--cancel {
