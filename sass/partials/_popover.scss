@@ -1,10 +1,20 @@
 @import "base";
 
+body {
+    background-color: $grey-e;
+    color: $grey-f;
+    font-family: "Arial", sans-serif;
+    font-size: 10px;
+}
+
 .popover {
     margin: 30px auto;
     background-color: $black;
     width: 400px;
-    border: 2px solid $black;
+    border-top: 1px solid $black;
+    border-right: 2px solid $black;
+    border-bottom: 2px solid $black;
+    border-left: 1px solid $black;
     border-radius: 5px;
     position: relative;
 
@@ -14,15 +24,19 @@
         border-left: 12px solid transparent;
         border-right: 12px solid transparent;
         border-bottom: 12px solid $black;
-        top: -13px;
-        left: 190px;
+        top: -12px;
+        left: 188px;
     }
 
     .popover__titlebar {
         display: flex;
         background-color: $grey-b;
         font-size: 11px;
-        padding: 4px 5px;
+        padding: 3.5px 7px;
+        line-height: 14px;
+        vertical-align: middle;
+        height: 21px;
+        box-sizing: border-box;
         color: $white;
         border-top-right-radius: 3px;
         border-top-left-radius: 3px;
@@ -30,7 +44,18 @@
         .popover__titlebar-controls {
             display: flex;
             margin-left: auto;
-            vertical-align: middle;
+        }
+    }
+
+    .popover__breaker {
+        display: flex;
+        background-color: $grey-b;
+        padding: 1.5px 7px;
+        height: 11px;
+        line-height: 11px;
+
+        .popover__breaker-text {
+            margin-left: 5px;
         }
     }
 
@@ -47,7 +72,6 @@
     }
 }
 
-
-
-
-
+.border-top {
+    border-top: 1px solid $black;
+}

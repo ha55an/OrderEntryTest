@@ -1,13 +1,13 @@
 .icon-button {
-    width: 10px;
+    width: 8px;
     height: auto;
-    margin: 2px;
     background-repeat: no-repeat;
     background-position: center;
     display: block;
 
     &.icon--cross {
         background-image: url('../img/icon--cross.svg');
+        margin-left: 6px;
 
         &:hover, &:active {
             background-image: url('../img/icon--cross-hover.svg');

@@ -21,10 +21,10 @@
                 <span class="icon-button icon--cross"></span>
             </div>
         </div>
-        <div class="panels">
-            <div class="no-border">
-                <label class="panels__input-active">BID</label>
-                <input type="text" name="bid" value="0.00" autofocus>
+        <div class="panels border-top">
+            <div class="panels__input panels_input--lrg no-border">
+                <input type="text" class="panels_input--lrg" name="bid" value="0.00" autofocus>
+                <label>BID</label>
             </div>
             <div class="panels__text">
                 <label>Hidden</label>
@@ -34,11 +34,11 @@
                 <label>Shown</label>
                 <span class="panels__text--lrg">1</span>
             </div>
-            <div class="panels__divider">
+            <div class="panels__divider border-top">
             </div>
-            <div class="panels__input">
-                <label class="panels__input-active">OFFER</label>
+            <div class="panels__input panels_input--lrg no-border">
                 <input type="text" name="offer" value="0.00">
+                <label>OFFER</label>
             </div>
             <div class="panels__text">
                 <label>Shown</label>
@@ -49,28 +49,28 @@
                 <span class="panels__text--lrg">0</span>
             </div>
         </div>
-        <div class="popover__breaker">
+        <div class="popover__breaker border-top">
             <span class="icon-button icon--minus"></span><span class="popover__breaker-text">Order Options</span>
         </div>
-        <div class="panels">
-            <div class="panels__text no-border">
+        <div class="panels border-top">
+            <div class="panels__input no-border">
+                <input type="text" name="good-till-date" value="dd/mm/yyyy">
                 <label>Good Till Date</label>
-                <span>dd/mm/yyyy</span>
             </div>
-            <div class="panels__text">
+            <div class="panels__input">
+                <input type="text" name="good-till-time" value="hh:mm">
                 <label>Good Till Time</label>
-                <span>hh:mm</span>
             </div>
-            <div class="panels__text">
+            <div class="panels__input">
                 <label>Good Until Cancelled</label>
                 <input type="checkbox" id="toggle" name="good-until-cancelled" class="switch" />
                 <label for="toggle">&nbsp;</label>
             </div>
         </div>
-        <div class="popover__breaker">
+        <div class="popover__breaker border-top">
             <span class="icon-button icon--minus"></span><span class="popover__breaker-text">Existing Orders</span>
         </div>
-        <div class="panels">
+        <div class="border-top">
             <table class="panels__table">
                 <thead>
                     <tr>
@@ -84,7 +84,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="no-border">&nbsp;</td>
+                        <td class="no-border"></td>
                         <td></td>
                         <td></td>
                         <td class="column-divider"></td>
@@ -92,7 +92,7 @@
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="no-border">&nbsp;</td>
+                        <td class="no-border"></td>
                         <td></td>
                         <td></td>
                         <td class="column-divider"></td>
@@ -100,7 +100,7 @@
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="no-border">&nbsp;</td>
+                        <td class="no-border"></td>
                         <td></td>
                         <td></td>
                         <td class="column-divider"></td>
@@ -108,7 +108,7 @@
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="no-border">&nbsp;</td>
+                        <td class="no-border"></td>
                         <td></td>
                         <td></td>
                         <td class="column-divider"></td>

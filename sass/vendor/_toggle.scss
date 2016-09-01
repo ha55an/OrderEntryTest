@@ -7,7 +7,7 @@ input.switch:empty {
 input.switch:empty ~ label {
     position: relative;
     float: left;
-    margin-top: 7px;
+    margin-top: 19px;
     text-indent: 5px;
     line-height: 10px;
 }
@@ -22,8 +22,8 @@ input.switch:empty ~ label:after {
     left: 0;
     content: 'YES';
     width: 54px;
-    text-indent: 21px;
-    font-size:10px;
+    text-indent: 20px;
+    font-size: 10px;
     color: $white;
     background-color: $grey-a;
     border-radius: 2px;
@@ -43,7 +43,7 @@ input.switch:empty ~ label:after {
 // Toggle On
 input.switch:checked ~ label:before {
     content: 'NO';
-    text-indent: 16px;
+    text-indent: 15px;
 }
 
 input.switch:checked ~ label:after {
